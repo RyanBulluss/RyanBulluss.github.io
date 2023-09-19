@@ -1,10 +1,57 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@layer base {
+  body {
+    @apply font-[Ubuntu]
+  }
+}
+
+#root {
+  min-height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1A1A1D;
+  min-height: 100vh;
+  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+  margin: 10px;
+  padding: 10px;
+  visibility: hidden;
+  border: 0;
+}
+
+/* Change the color of the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #4E4E50;
+  border-radius: 10vmin;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Change the color of the scrollbar track on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5E5E60;
 }
 
 code {
