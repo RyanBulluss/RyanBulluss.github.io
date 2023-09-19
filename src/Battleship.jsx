@@ -1,13 +1,13 @@
-import screenshot from "./images/University.png";
+import screenshot from "./images/Battleship.png";
 import {
-  FaReact,
-  FaNodeJs,
+  FaHtml5,
+  FaCss3,
   FaGithub,
   FaLink,
   FaChevronDown,
-  FaChevronUp,
+  FaChevronUp
 } from "react-icons/fa";
-import { SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
+import { SiExpress, SiMongodb, SiJavascript } from "react-icons/si";
 
 export default function University() {
   return (
@@ -17,53 +17,37 @@ export default function University() {
           <img src={screenshot} alt="University Home Page" />
         </div>
         <div className="flex flex-col items-center justify-between gap-4 my-2">
-          <h2 className="text-4xl sm:text-4xl font-semibold">AI University</h2>
+          <h2 className="text-4xl sm:text-4xl font-semibold">Battleship</h2>
           <div className="flex justify-center text-5xl lg:text-6xl gap-2">
             <div className="group flex flex-col gap-3 text-center">
               <div className="p-2 rounded-full">
-                <FaReact />
+                <FaHtml5 />
               </div>
               <div className="group-hover:opacity-100 transition duration-750 group-hover:visible opacity-0 invisible tooltip bg-second text-white text-[10px] md:text-[12px] rounded py-1 px-2 pointer-events-none whitespace-nowrap">
-                React
+                HTML
               </div>
             </div>
             <div className="group flex flex-col gap-3 text-center">
               <div className="p-2 rounded-full">
-                <FaNodeJs />
+                <FaCss3 />
               </div>
               <div className="group-hover:opacity-100 transition duration-750 group-hover:visible opacity-0 invisible tooltip bg-second text-white text-[10px] md:text-[12px] rounded py-1 px-2 pointer-events-none whitespace-nowrap">
-                NodeJS
-              </div>
-            </div>
-            <div className="group hidden xs:flex flex-col gap-3 text-center">
-              <div className="p-2 rounded-full">
-                <SiExpress />
-              </div>
-              <div className="group-hover:opacity-100 transition duration-750 group-hover:visible opacity-0 invisible tooltip bg-second text-white text-[10px] md:text-[12px] rounded py-1 px-2 pointer-events-none whitespace-nowrap">
-                ExpressJS
+                CSS
               </div>
             </div>
             <div className="group flex flex-col gap-3 text-center">
               <div className="p-2 rounded-full">
-                <SiMongodb />
+                <SiJavascript />
               </div>
               <div className="group-hover:opacity-100 transition duration-750 group-hover:visible opacity-0 invisible tooltip bg-second text-white text-[10px] md:text-[12px] rounded py-1 px-2 pointer-events-none whitespace-nowrap">
-                MongoDB
-              </div>
-            </div>
-            <div className="group flex flex-col gap-3 text-center">
-              <div className="p-2 rounded-full">
-                <SiTailwindcss />
-              </div>
-              <div className="group-hover:opacity-100 transition duration-750 group-hover:visible opacity-0 invisible tooltip bg-second text-white text-[10px] md:text-[12px] rounded py-1 px-2 pointer-events-none whitespace-nowrap">
-                Tailwind
+                JavaScript
               </div>
             </div>
           </div>
-          <h4 className="lg:text-xl text-gray-200">Created solo in 10 days</h4>
+          <h4 className="lg:text-xl text-gray-200">Created solo in 5 days</h4>
           <div className="flex flex-col gap-1">
             <a
-              href="https://ai-university-7d83bddf0c3e.herokuapp.com/"
+              href="https://ryanbulluss.github.io/Battleship-game/"
               target="_blank"
               className="my-1 bg-gradient-to-r from-fourth to-fifth p-[2px] rounded-lg"
             >
@@ -73,7 +57,7 @@ export default function University() {
               </div>
             </a>
             <a
-              href="https://github.com/RyanBulluss/AI-University"
+              href="https://github.com/RyanBulluss/Battleship-game"
               target="_blank"
               className="my-1 bg-gradient-to-r from-fourth to-fifth p-[2px] rounded-lg"
             >
@@ -87,12 +71,13 @@ export default function University() {
       </div>
 
       <p className="text-lg pt-4 text-gray-200">
-        AI University (AIU) is an innovative educational app that connects
-        students with AI-driven versions of renowned experts. The platform
-        offers engaging learning experiences across diverse subjects like
-        Psychology, Philosophy, and Chemistry. Additionally, the app fosters
-        collaborative learning by enabling student-to-student and
-        student-to-teacher messaging.
+        I've developed a Battleship board game using pure JavaScript, offering
+        players a customizable and engaging gaming experience. You have the
+        flexibility to choose your preferred difficulty level, board size, and
+        the number of ships, allowing for a dynamic and challenging game every
+        time you play. Enjoy the thrill of strategic naval warfare as you test
+        your skills against varying levels of complexity and navigate the high
+        seas with your fleet.
       </p>
       <p className="text-lg pt-4 text-gray-200">
         The app was built using the MERN stack and styled with Tailwind. It
@@ -105,7 +90,12 @@ export default function University() {
       </p>
       <div className="flex justify-center gap-4">
         <div className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2">
-          <a href="#finance">
+          <a href="#ecommerce">
+            <FaChevronUp />
+          </a>
+        </div>
+        <div className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2">
+          <a href="#contact">
             <FaChevronDown />
           </a>
         </div>

@@ -1,13 +1,17 @@
-import screenshot from "./images/University.png";
+import screenshot from "./images/MoneyWise.png";
 import {
-  FaReact,
-  FaNodeJs,
+  FaPython,
   FaGithub,
   FaLink,
   FaChevronDown,
   FaChevronUp,
 } from "react-icons/fa";
-import { SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
+import {
+  SiJavascript,
+  SiDjango,
+  SiBootstrap,
+  SiPostgresql,
+} from "react-icons/si";
 
 export default function University() {
   return (
@@ -17,53 +21,57 @@ export default function University() {
           <img src={screenshot} alt="University Home Page" />
         </div>
         <div className="flex flex-col items-center justify-between gap-4 my-2">
-          <h2 className="text-4xl sm:text-4xl font-semibold">AI University</h2>
+          <h2 className="text-4xl md:text-4xl font-semibold">
+            MoneyWise Finance
+          </h2>
           <div className="flex justify-center text-5xl lg:text-6xl gap-2">
             <div className="group flex flex-col gap-3 text-center">
               <div className="p-2 rounded-full">
-                <FaReact />
+                <SiDjango />
               </div>
               <div className="group-hover:opacity-100 transition duration-750 group-hover:visible opacity-0 invisible tooltip bg-second text-white text-[10px] md:text-[12px] rounded py-1 px-2 pointer-events-none whitespace-nowrap">
-                React
+                Django
               </div>
             </div>
             <div className="group flex flex-col gap-3 text-center">
               <div className="p-2 rounded-full">
-                <FaNodeJs />
+                <FaPython />
               </div>
               <div className="group-hover:opacity-100 transition duration-750 group-hover:visible opacity-0 invisible tooltip bg-second text-white text-[10px] md:text-[12px] rounded py-1 px-2 pointer-events-none whitespace-nowrap">
-                NodeJS
+                Python
               </div>
             </div>
             <div className="group hidden xs:flex flex-col gap-3 text-center">
               <div className="p-2 rounded-full">
-                <SiExpress />
+                <SiJavascript />
               </div>
               <div className="group-hover:opacity-100 transition duration-750 group-hover:visible opacity-0 invisible tooltip bg-second text-white text-[10px] md:text-[12px] rounded py-1 px-2 pointer-events-none whitespace-nowrap">
-                ExpressJS
+                JavaScript
               </div>
             </div>
             <div className="group flex flex-col gap-3 text-center">
               <div className="p-2 rounded-full">
-                <SiMongodb />
+                <SiBootstrap />
               </div>
               <div className="group-hover:opacity-100 transition duration-750 group-hover:visible opacity-0 invisible tooltip bg-second text-white text-[10px] md:text-[12px] rounded py-1 px-2 pointer-events-none whitespace-nowrap">
-                MongoDB
+                Bootstrap
               </div>
             </div>
             <div className="group flex flex-col gap-3 text-center">
               <div className="p-2 rounded-full">
-                <SiTailwindcss />
+                <SiPostgresql />
               </div>
               <div className="group-hover:opacity-100 transition duration-750 group-hover:visible opacity-0 invisible tooltip bg-second text-white text-[10px] md:text-[12px] rounded py-1 px-2 pointer-events-none whitespace-nowrap">
-                Tailwind
+                PostgreSQL
               </div>
             </div>
           </div>
-          <h4 className="lg:text-xl text-gray-200">Created solo in 10 days</h4>
+          <h4 className="lg:text-xl text-gray-200">
+            Built by a team of 4 in 5 days
+          </h4>
           <div className="flex flex-col gap-1">
             <a
-              href="https://ai-university-7d83bddf0c3e.herokuapp.com/"
+              href="https://moneywise-financehub-16306314584e.herokuapp.com/"
               target="_blank"
               className="my-1 bg-gradient-to-r from-fourth to-fifth p-[2px] rounded-lg"
             >
@@ -73,7 +81,7 @@ export default function University() {
               </div>
             </a>
             <a
-              href="https://github.com/RyanBulluss/AI-University"
+              href="https://github.com/RyanBulluss/MoneyWise"
               target="_blank"
               className="my-1 bg-gradient-to-r from-fourth to-fifth p-[2px] rounded-lg"
             >
@@ -87,12 +95,12 @@ export default function University() {
       </div>
 
       <p className="text-lg pt-4 text-gray-200">
-        AI University (AIU) is an innovative educational app that connects
-        students with AI-driven versions of renowned experts. The platform
-        offers engaging learning experiences across diverse subjects like
-        Psychology, Philosophy, and Chemistry. Additionally, the app fosters
-        collaborative learning by enabling student-to-student and
-        student-to-teacher messaging.
+        MoneyWise is your all-in-one financial app, designed to help you
+        effortlessly manage your finances with precision. With MoneyWise, you
+        can effortlessly track your budgets, maintain balance, and monitor stock
+        returns. The app presents your financial data in a visually engaging and
+        intuitive manner, ensuring you have a clear understanding of your
+        financial situation.
       </p>
       <p className="text-lg pt-4 text-gray-200">
         The app was built using the MERN stack and styled with Tailwind. It
@@ -103,9 +111,15 @@ export default function University() {
         detailed information on the code process, please refer to the README on
         GitHub!
       </p>
+
       <div className="flex justify-center gap-4">
         <div className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2">
-          <a href="#finance">
+          <a href="#university">
+            <FaChevronUp />
+          </a>
+        </div>
+        <div className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2">
+          <a href="#ecommerce">
             <FaChevronDown />
           </a>
         </div>
