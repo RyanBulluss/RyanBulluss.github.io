@@ -13,6 +13,14 @@ export default function Name() {
           <FaChevronDown />
         </div>
       </a>
+      <div className="flex justify-center gap-4 h-20 mx-auto">
+        <a
+          href="#about"
+          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
+        >
+          <FaChevronDown />
+        </a>
+      </div>
     </div>
   );
 }

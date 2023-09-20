@@ -1,3 +1,5 @@
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+
 export default function About() {
   return (
     <div className="min-h-[100vh] flex flex-col justify-center items-center gap-8">
@@ -12,7 +14,7 @@ export default function About() {
           </h4>
         </div>
         <div className="text-md">
-          <h1 className="hidden md:block text-6xl md:text-6xl font-semibold text-fourth/0 mb-4">
+          <h1 className="hidden prevent-select md:block text-6xl md:text-6xl font-semibold text-fourth/0 mb-4">
             .
           </h1>
           <p className="md:text-md text-gray-300">
@@ -27,6 +29,20 @@ export default function About() {
             experiences.
           </p>
         </div>
+      </div>
+      <div className="flex justify-center gap-4 h-20 mx-auto">
+        <a
+          href="#name"
+          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
+        >
+          <FaChevronUp />
+        </a>
+        <a
+          href="#skills"
+          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
+        >
+          <FaChevronDown />
+        </a>
       </div>
     </div>
   );

@@ -75,9 +75,7 @@ export default function University() {
         players a customizable and engaging gaming experience. You have the
         flexibility to choose your preferred difficulty level, board size, and
         the number of ships, allowing for a dynamic and challenging game every
-        time you play. Enjoy the thrill of strategic naval warfare as you test
-        your skills against varying levels of complexity and navigate the high
-        seas with your fleet.
+        time you play.
       </p>
       <p className="text-lg pt-4 text-gray-200">
         The app was built using the MERN stack and styled with Tailwind. It
@@ -89,16 +87,18 @@ export default function University() {
         GitHub!
       </p>
       <div className="flex justify-center gap-4">
-        <div className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2">
-          <a href="#ecommerce">
-            <FaChevronUp />
-          </a>
-        </div>
-        <div className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2">
-          <a href="#contact">
-            <FaChevronDown />
-          </a>
-        </div>
+      <a
+          href="#ecommerce"
+          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
+        >
+          <FaChevronUp />
+        </a>
+        <a
+          href="#contact"
+          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
+        >
+          <FaChevronDown />
+        </a>
       </div>
     </div>
   );

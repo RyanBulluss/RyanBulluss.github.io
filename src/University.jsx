@@ -104,11 +104,18 @@ export default function University() {
         GitHub!
       </p>
       <div className="flex justify-center gap-4">
-        <div className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2">
-          <a href="#finance">
-            <FaChevronDown />
-          </a>
-        </div>
+      <a
+          href="#skills"
+          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
+        >
+          <FaChevronUp />
+        </a>
+        <a
+          href="#finance"
+          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
+        >
+          <FaChevronDown />
+        </a>
       </div>
     </div>
   );

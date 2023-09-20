@@ -15,7 +15,7 @@ export default function University() {
         </div>
         <div className="flex flex-col items-center justify-between gap-4 my-2">
           <h2 className="text-4xl sm:text-4xl font-semibold">
-            Soldit Ecommerce
+            SoldIt (Ecommerce)
           </h2>
           <div className="flex justify-center text-5xl lg:text-6xl gap-2">
             <div className="group flex flex-col gap-3 text-center">
@@ -96,17 +96,18 @@ export default function University() {
       </p>
 
       <div className="flex justify-center gap-4">
-      <div className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2">
-          <a href="#finance">
-            <FaChevronUp />
-          </a>
-        </div>
-        <div className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2">
-          <a href="#battleship">
-            <FaChevronDown />
-          </a>
-        </div>
-        
+      <a
+          href="#finance"
+          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
+        >
+          <FaChevronUp />
+        </a>
+        <a
+          href="#battleship"
+          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
+        >
+          <FaChevronDown />
+        </a>
       </div>
     </div>
   );

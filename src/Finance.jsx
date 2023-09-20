@@ -22,7 +22,7 @@ export default function University() {
         </div>
         <div className="flex flex-col items-center justify-between gap-4 my-2">
           <h2 className="text-4xl md:text-4xl font-semibold">
-            MoneyWise Finance
+            MoneyWise (Finance)
           </h2>
           <div className="flex justify-center text-5xl lg:text-6xl gap-2">
             <div className="group flex flex-col gap-3 text-center">
@@ -67,7 +67,7 @@ export default function University() {
             </div>
           </div>
           <h4 className="lg:text-xl text-gray-200">
-            Built by a team of 4 in 5 days
+            Created by a team of 4 in 5 days
           </h4>
           <div className="flex flex-col gap-1">
             <a
@@ -95,7 +95,7 @@ export default function University() {
       </div>
 
       <p className="text-lg pt-4 text-gray-200">
-        MoneyWise is your all-in-one financial app, designed to help you
+        MoneyWise is your all-in-one financial hub, designed to help you
         effortlessly manage your finances with precision. With MoneyWise, you
         can effortlessly track your budgets, maintain balance, and monitor stock
         returns. The app presents your financial data in a visually engaging and
@@ -113,16 +113,18 @@ export default function University() {
       </p>
 
       <div className="flex justify-center gap-4">
-        <div className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2">
-          <a href="#university">
-            <FaChevronUp />
-          </a>
-        </div>
-        <div className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2">
-          <a href="#ecommerce">
-            <FaChevronDown />
-          </a>
-        </div>
+        <a
+          href="#university"
+          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
+        >
+          <FaChevronUp />
+        </a>
+        <a
+          href="#ecommerce"
+          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
+        >
+          <FaChevronDown />
+        </a>
       </div>
     </div>
   );
