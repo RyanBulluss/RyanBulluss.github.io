@@ -1,10 +1,12 @@
 import screenshot from "./images/SoldIt.png";
-import { FaNodeJs, FaGithub, FaLink, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import {
-  SiExpress,
-  SiMongodb,
-  SiBootstrap,
-} from "react-icons/si";
+  FaNodeJs,
+  FaGithub,
+  FaLink,
+  FaChevronDown,
+  FaChevronUp,
+} from "react-icons/fa";
+import { SiExpress, SiMongodb, SiBootstrap } from "react-icons/si";
 
 export default function University() {
   return (
@@ -56,6 +58,7 @@ export default function University() {
             <a
               href="https://soldit-shop-ffbb257f110b.herokuapp.com/"
               target="_blank"
+              rel="noreferrer"
               className="my-1 bg-gradient-to-r from-fourth to-fifth p-[2px] rounded-lg"
             >
               <div className="flex items-center gap-2 bg-first hover:bg-first/0 py-2 px-8 rounded-lg prevent-select">
@@ -66,6 +69,7 @@ export default function University() {
             <a
               href="https://github.com/RyanBulluss/soldit-ecommerce"
               target="_blank"
+              rel="noreferrer"
               className="my-1 bg-gradient-to-r from-fourth to-fifth p-[2px] rounded-lg"
             >
               <div className="flex items-center gap-2 bg-first hover:bg-first/0 py-2 px-8 rounded-lg prevent-select">
@@ -78,25 +82,26 @@ export default function University() {
       </div>
 
       <p className="text-lg pt-4 text-gray-200">
-        SoldIt is a dynamic ecommerce platform designed to streamline the
-        process of buying and selling products. Our user-friendly interface
-        makes it effortless for users to list items for sale and discover unique
-        products to buy. At SoldIt, security is our priority, and we ensure safe
-        transactions through the trusted Stripe payments system, giving you
-        peace of mind when making purchases or selling your goods.
+        SoldIt is your dynamic ecommerce solution, simplifying the buying and
+        selling experience. Our user-friendly interface empowers users to
+        effortlessly list items for sale and explore unique products. Security
+        is our utmost priority, and we've integrated the trusted Stripe payments
+        system to ensure secure transactions, providing you with peace of mind
+        whether you're making a purchase or selling your goods.
       </p>
       <p className="text-lg pt-4 text-gray-200">
-        The app was built using the MERN stack and styled with Tailwind. It
-        utilizes the OpenAI API to provide cutting-edge AI-driven responses from
-        teachers, delivering an exceptional learning experience. Furthermore,
-        Stripe is integrated to ensure fast and secure payments for premium
-        features, such as teacher creation and access to the school library. For
+        Behind the scenes, SoldIt is built on a foundation of Node.js and
+        Express for the backend, offering a robust and scalable architecture.
+        The app is styled using Bootstrap for a polished and responsive user
+        interface. To enhance security, I implemented Google authentication
+        alongside Stripe checkout. SoldIt boasts a range of features, including
+        item listing, purchasing, user reviews, and much more. For
         detailed information on the code process, please refer to the README on
         GitHub!
       </p>
 
       <div className="flex justify-center gap-4">
-      <a
+        <a
           href="#finance"
           className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
         >

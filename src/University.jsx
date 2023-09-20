@@ -65,6 +65,7 @@ export default function University() {
             <a
               href="https://ai-university-7d83bddf0c3e.herokuapp.com/"
               target="_blank"
+              rel="noreferrer"
               className="my-1 bg-gradient-to-r from-fourth to-fifth p-[2px] rounded-lg"
             >
               <div className="flex items-center gap-2 bg-first hover:bg-first/0 py-2 px-8 rounded-lg prevent-select">
@@ -75,6 +76,7 @@ export default function University() {
             <a
               href="https://github.com/RyanBulluss/AI-University"
               target="_blank"
+              rel="noreferrer"
               className="my-1 bg-gradient-to-r from-fourth to-fifth p-[2px] rounded-lg"
             >
               <div className="flex items-center gap-2 bg-first hover:bg-first/0 py-2 px-8 rounded-lg prevent-select">

@@ -73,6 +73,7 @@ export default function University() {
             <a
               href="https://moneywise-financehub-16306314584e.herokuapp.com/"
               target="_blank"
+              rel="noreferrer"
               className="my-1 bg-gradient-to-r from-fourth to-fifth p-[2px] rounded-lg"
             >
               <div className="flex items-center gap-2 bg-first hover:bg-first/0 py-2 px-8 rounded-lg prevent-select">
@@ -83,6 +84,7 @@ export default function University() {
             <a
               href="https://github.com/RyanBulluss/MoneyWise"
               target="_blank"
+              rel="noreferrer"
               className="my-1 bg-gradient-to-r from-fourth to-fifth p-[2px] rounded-lg"
             >
               <div className="flex items-center gap-2 bg-first hover:bg-first/0 py-2 px-8 rounded-lg prevent-select">
@@ -95,21 +97,24 @@ export default function University() {
       </div>
 
       <p className="text-lg pt-4 text-gray-200">
-        MoneyWise is your all-in-one financial hub, designed to help you
-        effortlessly manage your finances with precision. With MoneyWise, you
-        can effortlessly track your budgets, maintain balance, and monitor stock
-        returns. The app presents your financial data in a visually engaging and
-        intuitive manner, ensuring you have a clear understanding of your
-        financial situation.
+        MoneyWise is your comprehensive financial companion, designed to
+        streamline your financial management effortlessly. With MoneyWise, you
+        can seamlessly track your budgets, maintain your financial balance, and
+        stay updated on stock market trends. Our app presents your financial
+        data in an engaging and user-friendly manner, ensuring you always have a
+        clear grasp of your financial health.
       </p>
       <p className="text-lg pt-4 text-gray-200">
-        The app was built using the MERN stack and styled with Tailwind. It
-        utilizes the OpenAI API to provide cutting-edge AI-driven responses from
-        teachers, delivering an exceptional learning experience. Furthermore,
-        Stripe is integrated to ensure fast and secure payments for premium
-        features, such as teacher creation and access to the school library. For
-        detailed information on the code process, please refer to the README on
-        GitHub!
+        MoneyWise is built on a solid foundation, utilizing the Django framework
+        and PostgreSQL database. It boasts a rich feature set, including robust
+        authentication, a customizable user interface, dynamic charts, and more.
+        My contributions within the development team primarily revolved around
+        code repository management, backend development (including models,
+        middleware, and authentication), and enhancing the frontend using
+        technologies like Chart.js and Bootstrap to craft an intuitive user
+        interface. Currently, the app is optimized for desktop and tablet
+        screens. For detailed information on the code process, please refer to
+        the README on GitHub!
       </p>
 
       <div className="flex justify-center gap-4">

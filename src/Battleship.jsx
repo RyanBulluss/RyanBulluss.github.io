@@ -5,9 +5,9 @@ import {
   FaGithub,
   FaLink,
   FaChevronDown,
-  FaChevronUp
+  FaChevronUp,
 } from "react-icons/fa";
-import { SiExpress, SiMongodb, SiJavascript } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
 
 export default function University() {
   return (
@@ -49,6 +49,7 @@ export default function University() {
             <a
               href="https://ryanbulluss.github.io/Battleship-game/"
               target="_blank"
+              rel="noreferrer"
               className="my-1 bg-gradient-to-r from-fourth to-fifth p-[2px] rounded-lg"
             >
               <div className="flex items-center gap-2 bg-first hover:bg-first/0 py-2 px-8 rounded-lg prevent-select">
@@ -59,6 +60,7 @@ export default function University() {
             <a
               href="https://github.com/RyanBulluss/Battleship-game"
               target="_blank"
+              rel="noreferrer"
               className="my-1 bg-gradient-to-r from-fourth to-fifth p-[2px] rounded-lg"
             >
               <div className="flex items-center gap-2 bg-first hover:bg-first/0 py-2 px-8 rounded-lg prevent-select">
@@ -71,23 +73,24 @@ export default function University() {
       </div>
 
       <p className="text-lg pt-4 text-gray-200">
-        I've developed a Battleship board game using pure JavaScript, offering
-        players a customizable and engaging gaming experience. You have the
-        flexibility to choose your preferred difficulty level, board size, and
-        the number of ships, allowing for a dynamic and challenging game every
-        time you play.
+        Dive into the world of Battleship with my custom-made JavaScript game.
+        This interactive experience offers players full control over their game.
+        You can fine-tune the challenge level, select your preferred board size,
+        and even adjust the number of ships, ensuring every match is a thrilling
+        and unique experience.
       </p>
       <p className="text-lg pt-4 text-gray-200">
-        The app was built using the MERN stack and styled with Tailwind. It
-        utilizes the OpenAI API to provide cutting-edge AI-driven responses from
-        teachers, delivering an exceptional learning experience. Furthermore,
-        Stripe is integrated to ensure fast and secure payments for premium
-        features, such as teacher creation and access to the school library. For
-        detailed information on the code process, please refer to the README on
-        GitHub!
+        Behind the scenes, this game is built with pure HTML, CSS, and
+        JavaScript, allowing me to master the fundamentals without relying on
+        libraries or frameworks. It features an intelligent AI opponent
+        (available on regular and veteran difficulty levels) that strategically
+        predicts ship locations based on previous hits. Additionally, the game
+        includes a ship placement screen to add a tactical element to the
+        gameplay. For detailed information on the code process, please refer to
+        the README on GitHub!
       </p>
       <div className="flex justify-center gap-4">
-      <a
+        <a
           href="#ecommerce"
           className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
         >

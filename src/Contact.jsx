@@ -1,4 +1,4 @@
-import { FaChevronUp, FaChevronDown } from "react-icons/fa";
+import { FaChevronUp } from "react-icons/fa";
 
 export default function Contact() {
   return (
