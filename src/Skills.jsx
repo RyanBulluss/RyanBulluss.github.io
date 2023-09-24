@@ -70,32 +70,19 @@ export default function Skills() {
   ];
 
   return (
-    <div className="min-h-[100vh] max-w-[1000px] mx-auto">
-      <div className="min-h-[80vh] grid grid-cols-3 md:grid-cols-4 text-5xl gap-6 px-4 pt-36 pb-8">
+    <div className="min-h-[100vh] max-w-[1000px] mx-auto snap">
+      <div className="h-[100vh] grid grid-cols-3 md:grid-cols-4 sm:text-5xl text-3xl gap-6 px-4 p-24 sm:pt-40">
         {skills.map((skill, idx) => (
           <div
             key={idx}
-            className="border group border-gray-500 hover:translate-y-1 p-5 flex flex-col items-center justify-center rounded-2xl"
+            className="border group border-gray-500 hover:text-second p-5 flex flex-col items-center justify-center rounded-2xl"
           >
             <span className="">{skill.icon}</span>
-            <h3 className="text-2xl">{skill.name}</h3>
+            <h3 className="text-lg sm:text-2xl">{skill.name}</h3>
           </div>
         ))}
       </div>
-      <div className="flex justify-center gap-4 h-20 mx-auto">
-        <a
-          href="#about"
-          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
-        >
-          <FaChevronUp />
-        </a>
-        <a
-          href="#university"
-          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
-        >
-          <FaChevronDown />
-        </a>
-      </div>
+
     </div>
   );
 }

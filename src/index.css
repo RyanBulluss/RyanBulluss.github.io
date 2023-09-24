@@ -16,7 +16,9 @@
 }
 
 * {
+  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
 body {
@@ -27,6 +29,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.snap {
+ scroll-snap-align: start;
+}
+
 .prevent-select {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -34,6 +40,7 @@ body {
 }
 
 ::-webkit-scrollbar {
+  display: none;
   width: 10px; /* Set the width of the scrollbar */
   margin: 10px;
   padding: 10px;

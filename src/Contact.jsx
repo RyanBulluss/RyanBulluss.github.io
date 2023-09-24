@@ -2,7 +2,7 @@ import { FaChevronUp } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <div className="min-h-[100vh] flex flex-col justify-center items-center p-4">
+    <div className="min-h-[100vh] flex flex-col justify-center items-center p-4 pt-8 snap">
       <h1 className="text-6xl md:text-6xl font-semibold text-fourth pb-8">
         Contact
       </h1>
@@ -29,7 +29,7 @@ export default function Contact() {
           name="message"
           className="p-2 bg-second"
           placeholder="Message"
-          rows="10"
+          rows="8"
           required
         ></textarea>
         <button
@@ -41,14 +41,6 @@ export default function Contact() {
           </div>
         </button>
       </form>
-      <div className="flex justify-center gap-4 h-20 mx-auto">
-        <a
-          href="#battleship"
-          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
-        >
-          <FaChevronUp />
-        </a>
-      </div>
     </div>
   );
 }

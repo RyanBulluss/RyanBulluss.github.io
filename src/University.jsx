@@ -11,9 +11,9 @@ import { SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
 
 export default function University() {
   return (
-    <div className="w-full py-40">
+    <div className="w-full min-h-[100vh] py-24 sm:py-52 snap">
       <div className="grid md:grid-cols-2 gap-2">
-        <div className="flex items-center justify-center rounded-xl overflow-hidden mb-4">
+        <div className="flex items-center w-[90%] sm:w-full mx-auto justify-center rounded-xl overflow-hidden mb-4">
           <img src={screenshot} alt="University Home Page" />
         </div>
         <div className="flex flex-col items-center justify-between gap-4 my-2">
@@ -96,7 +96,7 @@ export default function University() {
         collaborative learning by enabling student-to-student and
         student-to-teacher messaging.
       </p>
-      <p className="text-lg pt-4 text-gray-200">
+      <p className="text-lg pt-4 text-gray-200 hidden md:block">
         The app was built using the MERN stack and styled with Tailwind. It
         utilizes the OpenAI API to provide cutting-edge AI-driven responses from
         teachers, delivering an exceptional learning experience. Furthermore,
@@ -105,20 +105,6 @@ export default function University() {
         detailed information on the code process, please refer to the README on
         GitHub!
       </p>
-      <div className="flex justify-center gap-4">
-      <a
-          href="#skills"
-          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
-        >
-          <FaChevronUp />
-        </a>
-        <a
-          href="#finance"
-          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
-        >
-          <FaChevronDown />
-        </a>
-      </div>
     </div>
   );
 }

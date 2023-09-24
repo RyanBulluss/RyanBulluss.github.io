@@ -10,9 +10,9 @@ import { SiExpress, SiMongodb, SiBootstrap } from "react-icons/si";
 
 export default function University() {
   return (
-    <div className="w-full py-40">
+    <div className="w-full min-h-[100vh] py-24 sm:py-52 snap">
       <div className="grid md:grid-cols-2 gap-2">
-        <div className="flex items-center justify-center rounded-xl overflow-hidden mb-4">
+        <div className="flex items-center w-[90%] sm:w-full mx-auto justify-center rounded-xl overflow-hidden mb-4">
           <img src={screenshot} alt="University Home Page" />
         </div>
         <div className="flex flex-col items-center justify-between gap-4 my-2">
@@ -89,7 +89,7 @@ export default function University() {
         system to ensure secure transactions, providing you with peace of mind
         whether you're making a purchase or selling your goods.
       </p>
-      <p className="text-lg pt-4 text-gray-200">
+      <p className="text-lg pt-4 text-gray-200 hidden md:block">
         Behind the scenes, SoldIt is built on a foundation of Node.js and
         Express for the backend, offering a robust and scalable architecture.
         The app is styled using Bootstrap for a polished and responsive user
@@ -100,20 +100,7 @@ export default function University() {
         GitHub!
       </p>
 
-      <div className="flex justify-center gap-4">
-        <a
-          href="#finance"
-          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
-        >
-          <FaChevronUp />
-        </a>
-        <a
-          href="#battleship"
-          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
-        >
-          <FaChevronDown />
-        </a>
-      </div>
+    
     </div>
   );
 }

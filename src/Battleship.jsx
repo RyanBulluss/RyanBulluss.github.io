@@ -11,9 +11,9 @@ import { SiJavascript } from "react-icons/si";
 
 export default function University() {
   return (
-    <div className="w-full py-40">
+    <div className="w-full min-h-[100vh] py-24 sm:py-52 snap">
       <div className="grid md:grid-cols-2 gap-2">
-        <div className="flex items-center justify-center rounded-xl overflow-hidden mb-4">
+        <div className="flex items-center w-[90%] sm:w-full mx-auto justify-center rounded-xl overflow-hidden mb-4">
           <img src={screenshot} alt="University Home Page" />
         </div>
         <div className="flex flex-col items-center justify-between gap-4 my-2">
@@ -79,7 +79,7 @@ export default function University() {
         and even adjust the number of ships, ensuring every match is a thrilling
         and unique experience.
       </p>
-      <p className="text-lg pt-4 text-gray-200">
+      <p className="text-lg pt-4 text-gray-200 hidden md:block">
         Behind the scenes, this game is built with pure HTML, CSS, and
         JavaScript, allowing me to master the fundamentals without relying on
         libraries or frameworks. It features an intelligent AI opponent
@@ -89,20 +89,7 @@ export default function University() {
         gameplay. For detailed information on the code process, please refer to
         the README on GitHub!
       </p>
-      <div className="flex justify-center gap-4">
-        <a
-          href="#ecommerce"
-          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
-        >
-          <FaChevronUp />
-        </a>
-        <a
-          href="#contact"
-          className="bg-second hover:bg-second/50 rounded-full text-2xl w-12 my-4 flex justify-center items-center p-2"
-        >
-          <FaChevronDown />
-        </a>
-      </div>
+    
     </div>
   );
 }
