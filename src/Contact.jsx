@@ -1,15 +1,17 @@
 import { FaChevronUp } from "react-icons/fa";
+import Test from "./Test";
 
 export default function Contact() {
   return (
-    <div className="min-h-[100vh] flex flex-col justify-center items-center p-4 pt-8 snap">
+    <div className="min-h-[100vh] flex flex-col justify-center items-center gap-16 p-4 pt-8 snap">
+      <Test />
       <h1 className="text-6xl md:text-6xl font-semibold text-fourth pb-8">
         Contact
       </h1>
       <form
         action="https://getform.io/f/1f091172-9696-4ac3-81b2-1aeb2d3f8a69"
         method="POST"
-        className="flex flex-col max-w-[600px] w-full"
+        className="flex flex-col max-w-[600px] w-full z-20"
       >
         <input
           className="p-2 bg-second"

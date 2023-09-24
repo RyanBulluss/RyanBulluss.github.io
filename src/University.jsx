@@ -4,17 +4,15 @@ import {
   FaNodeJs,
   FaGithub,
   FaLink,
-  FaChevronDown,
-  FaChevronUp,
 } from "react-icons/fa";
 import { SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
 
 export default function University() {
   return (
-    <div className="w-full min-h-[100vh] py-24 sm:py-52 snap">
+    <div className="w-full min-h-[100vh] py-24 sm:py-40 snap">
       <div className="grid md:grid-cols-2 gap-2">
         <div className="flex items-center w-[90%] sm:w-full mx-auto justify-center rounded-xl overflow-hidden mb-4">
-          <img src={screenshot} alt="University Home Page" />
+          <img src={screenshot} alt="University Home Page" className="" />
         </div>
         <div className="flex flex-col items-center justify-between gap-4 my-2">
           <h2 className="text-4xl sm:text-4xl font-semibold">AI University</h2>

@@ -1,19 +1,26 @@
-import { MeshDistortMaterial, OrbitControls, PerspectiveCamera, RenderTexture, Sphere, Text } from "@react-three/drei"
-import { Canvas } from "@react-three/fiber"
+import {
+  MeshDistortMaterial,
+  OrbitControls,
+  Sphere,
+} from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
 
 export default function Test() {
-
-
-    return (
-        <div className="h-[50vh] w-full fixed">
-            <Canvas>
-                <OrbitControls autoRotate={true}  />
-                <ambientLight intensity={1.5} />
-                <directionalLight position={[5,2,1]} />
-                <Sphere args={[1.5, 100, 200]} scale={1}>
-                    <MeshDistortMaterial color="#bbd" attach="material" distort={0.5} speed={2} />
-                </Sphere>
-            </Canvas>
-        </div>
-    )
+  return (
+    <div className=" md:block absolute w-[90%] h-[100%] mt-[140px] md:h-[100%] z-10">
+      <Canvas>
+        <OrbitControls autoRotate={true} enableZoom={false} />
+        <ambientLight intensity={1.5} />
+        <directionalLight intensity={1} position={[5, 2, 1]} />
+        <Sphere args={[1, 100, 200]} scale={2}>
+          <MeshDistortMaterial
+            color="#905"
+            attach="material"
+            distort={0.5}
+            speed={0.3}
+          />
+        </Sphere>
+      </Canvas>
+    </div>
+  );
 }

@@ -9,7 +9,7 @@ export default function Navbar() {
 
 
   return (
-    <div className="fixed prevent-select bg-first w-full px-4 top-0 h-[80px] flex items-center justify-between gap-6 z-20">
+    <div className="fixed prevent-select bg-first w-full px-4 top-0 h-[80px] flex items-center justify-between gap-6 z-40">
       <div>
         <a href="#name">
           <img src={logo} alt="logo" className="h-16" />
