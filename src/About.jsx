@@ -1,4 +1,4 @@
-import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+
 
 export default function About() {
   return (
@@ -19,7 +19,19 @@ export default function About() {
           <h1 className="hidden prevent-select md:block text-6xl md:text-6xl font-semibold text-fourth/0 mb-4">
             .
           </h1>
-          <p className="text-sm sm:text-base text-gray-300"
+          <p className="text-sm hidden md:block sm:text-base text-gray-300"
+          data-aos="fade-up-left">
+            I am a results-driven software engineer known for my ability to
+            tackle intricate challenges with both logical precision and creative
+            ingenuity. My dedication to honing my problem-solving skills and
+            staying current with industry trends has empowered me to excel in
+            diverse software development contexts. Whether it's optimizing
+            algorithms, architecting elegant solutions, or collaborating
+            seamlessly with cross-functional teams, I am committed to delivering
+            software excellence that drives innovation and elevates user
+            experiences.
+          </p>
+          <p className="text-sm block md:hidden sm:text-base text-gray-300"
           data-aos="fade-up-right">
             I am a results-driven software engineer known for my ability to
             tackle intricate challenges with both logical precision and creative
@@ -33,10 +45,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      
-      
 
-      
     </div>
   );
 }

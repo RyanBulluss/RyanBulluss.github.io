@@ -75,7 +75,7 @@ export default function Skills() {
         {skills.map((skill, idx) => (
           <div
             key={idx}
-            className="border group border-gray-500 p-5 flex flex-col items-center justify-center rounded-2xl"
+            className="border group z-30 border-gray-500 p-5 flex flex-col items-center justify-center rounded-2xl"
             data-aos="flip-left"
             data-aos-duration={500}
             data-aos-delay={(idx + 1) * 100}
