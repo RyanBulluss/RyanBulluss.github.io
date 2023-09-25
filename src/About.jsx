@@ -5,10 +5,12 @@ export default function About() {
     <div className="min-h-[100vh] flex flex-col justify-center items-center gap-8 snap">
       <div className="grid md:grid-cols-2 gap-8 px-4 max-w-[1000px]">
         <div className="text-3xl md:text-4xl md:text-right">
-          <h1 className="text-6xl md:text-6xl font-semibold text-fourth mb-4">
+          <h1 className="text-6xl md:text-6xl font-semibold text-fourth mb-4"
+          data-aos="fade-down-right">
             About
           </h1>
-          <h4 className="text-xl sm:text-4xl">
+          <h4 className="text-xl sm:text-4xl"
+          data-aos="fade-up-right">
             Hi, my name is <span className="text-fifth">Ryan Bulluss</span> I am a full stack software engineer
             currently specialising in the <span className="text-fifth">MERN</span> stack
           </h4>
@@ -17,7 +19,8 @@ export default function About() {
           <h1 className="hidden prevent-select md:block text-6xl md:text-6xl font-semibold text-fourth/0 mb-4">
             .
           </h1>
-          <p className="text-sm sm:text-base text-gray-300">
+          <p className="text-sm sm:text-base text-gray-300"
+          data-aos="fade-up-right">
             I am a results-driven software engineer known for my ability to
             tackle intricate challenges with both logical precision and creative
             ingenuity. My dedication to honing my problem-solving skills and

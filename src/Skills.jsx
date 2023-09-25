@@ -75,7 +75,10 @@ export default function Skills() {
         {skills.map((skill, idx) => (
           <div
             key={idx}
-            className="border group border-gray-500 hover:text-second p-5 flex flex-col items-center justify-center rounded-2xl"
+            className="border group border-gray-500 p-5 flex flex-col items-center justify-center rounded-2xl"
+            data-aos="flip-left"
+            data-aos-duration={500}
+            data-aos-delay={(idx + 1) * 100}
           >
             <span className="">{skill.icon}</span>
             <h3 className="text-lg sm:text-2xl">{skill.name}</h3>

@@ -47,7 +47,7 @@ export default function Socials() {
   ];
 
   return (
-    <div className="fixed bottom-0 h-[60px]">
+    <div className="fixed bottom-0 h-[60px] z-30">
         {message && (
             <>
             <img src={arrow} alt="" className="h-10 w-10 -mt-16 ml-24" />

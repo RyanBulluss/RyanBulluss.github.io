@@ -12,7 +12,7 @@ export default function Test() {
         <OrbitControls autoRotate={true} enableZoom={false} />
         <ambientLight intensity={1.5} />
         <directionalLight intensity={1} position={[5, 2, 1]} />
-        <Sphere args={[1, 100, 200]} scale={2}>
+        <Sphere args={[1, 100, 200]} scale={1.9}>
           <MeshDistortMaterial
             color="#905"
             attach="material"
