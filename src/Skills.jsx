@@ -70,8 +70,13 @@ export default function Skills() {
   ];
 
   return (
-    <div className="min-h-[100vh] max-w-[1000px] mx-auto snap">
-      <div className="h-[100vh] grid grid-cols-3 md:grid-cols-4 sm:text-5xl text-3xl gap-6 px-4 p-24 sm:pt-40">
+    <div className="h-[100vh] max-w-[1000px] mx-auto snap px-4 flex flex-col flex-grow py-20">
+      <h1 className="text-3xl md:text-6xl font-semibold text-fourth py-8 text-center"
+      data-aos="fade-zoom-in"
+      data-aos-duration={1000}>
+        Technical Skills
+      </h1>
+      <div className="grid grid-cols-3 md:grid-cols-4 sm:text-5xl text-3xl gap-6 grow py-4">
         {skills.map((skill, idx) => (
           <div
             key={idx}
@@ -85,6 +90,7 @@ export default function Skills() {
           </div>
         ))}
       </div>
+      
 
     </div>
   );

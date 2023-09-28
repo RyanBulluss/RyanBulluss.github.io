@@ -5,6 +5,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Socials from "./Socials";
+import Interests from "./Interests";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
@@ -25,6 +26,9 @@ export default function App() {
       </div>
       <div id="skills">
         <Skills />
+      </div>
+      <div id="interests">
+        <Interests />
       </div>
       <div id="projects">
         <Projects />

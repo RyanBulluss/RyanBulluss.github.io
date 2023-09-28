@@ -1,26 +1,40 @@
-
+import profile from "./images/Profile.JPG";
 
 export default function About() {
   return (
-    <div className="min-h-[100vh] flex flex-col justify-center items-center gap-8 snap">
+    <div className="min-h-[100vh] flex flex-col justify-center items-center gap-8 snap py-20">
+      <div
+        className="h-[200px] w-[200px] overflow-hidden flex items-center rounded-3xl border-2 "
+        data-aos="fade-down"
+      >
+        <img
+          src={profile}
+          alt="profile"
+          className="overflow-hidden rounded-3xl"
+        />
+      </div>
       <div className="grid md:grid-cols-2 gap-8 px-4 max-w-[1000px]">
         <div className="text-3xl md:text-4xl md:text-right">
-          <h1 className="text-6xl md:text-6xl font-semibold text-fourth mb-4"
-          data-aos="fade-down-right">
+          <h1
+            className="text-3xl md:text-6xl font-semibold text-fourth mb-4"
+            data-aos="fade-down-right"
+          >
             About
           </h1>
-          <h4 className="text-xl sm:text-4xl"
-          data-aos="fade-up-right">
-            Hi, my name is <span className="text-fifth">Ryan Bulluss</span> I am a full stack software engineer
-            currently specialising in the <span className="text-fifth">MERN</span> stack
+          <h4 className="text-xl sm:text-4xl" data-aos="fade-up-right">
+            Hi, my name is <span className="text-fifth">Ryan Bulluss</span> I am
+            a full stack software engineer currently specialising in the{" "}
+            <span className="text-fifth">MERN</span> stack
           </h4>
         </div>
         <div className="">
           <h1 className="hidden prevent-select md:block text-6xl md:text-6xl font-semibold text-fourth/0 mb-4">
             .
           </h1>
-          <p className="text-sm hidden md:block sm:text-base text-gray-300"
-          data-aos="fade-up-left">
+          <p
+            className="text-sm hidden md:block sm:text-base text-gray-300"
+            data-aos="fade-up-left"
+          >
             I am a results-driven software engineer known for my ability to
             tackle intricate challenges with both logical precision and creative
             ingenuity. My dedication to honing my problem-solving skills and
@@ -31,8 +45,10 @@ export default function About() {
             software excellence that drives innovation and elevates user
             experiences.
           </p>
-          <p className="text-sm block md:hidden sm:text-base text-gray-300"
-          data-aos="fade-up-right">
+          <p
+            className="text-sm block md:hidden sm:text-base text-gray-300"
+            data-aos="fade-up-right"
+          >
             I am a results-driven software engineer known for my ability to
             tackle intricate challenges with both logical precision and creative
             ingenuity. My dedication to honing my problem-solving skills and
@@ -45,7 +61,6 @@ export default function About() {
           </p>
         </div>
       </div>
-
     </div>
   );
 }
