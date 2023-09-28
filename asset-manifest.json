@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6cda936.css",
-    "main.js": "/static/js/main.1a53d165.js",
+    "main.css": "/static/css/main.5e08d4c9.css",
+    "main.js": "/static/js/main.c8a40ab6.js",
+    "static/media/Profile.JPG": "/static/media/Profile.8912b62f3c78b1ef0a5c.JPG",
     "static/media/University.png": "/static/media/University.18a90e2876ec8fd1ac5d.png",
     "static/media/SoldIt.png": "/static/media/SoldIt.ace0e6e097dbba2af639.png",
     "static/media/MoneyWise.png": "/static/media/MoneyWise.322727c7e6c72c0ad1a4.png",
     "static/media/Battleship.png": "/static/media/Battleship.da14da41355dac083c50.png",
     "static/media/logo.png": "/static/media/logo.f43287a26de8a6f1994b.png",
     "index.html": "/index.html",
-    "main.b6cda936.css.map": "/static/css/main.b6cda936.css.map",
-    "main.1a53d165.js.map": "/static/js/main.1a53d165.js.map"
+    "main.5e08d4c9.css.map": "/static/css/main.5e08d4c9.css.map",
+    "main.c8a40ab6.js.map": "/static/js/main.c8a40ab6.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6cda936.css",
-    "static/js/main.1a53d165.js"
+    "static/css/main.5e08d4c9.css",
+    "static/js/main.c8a40ab6.js"
   ]
 }
