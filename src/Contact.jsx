@@ -1,10 +1,8 @@
-import { FaChevronUp } from "react-icons/fa";
-import Test from "./Test";
+
 
 export default function Contact() {
   return (
     <div className="min-h-[100vh] flex flex-col justify-center items-center gap-16 p-4 pt-8 snap">
-      <Test />
       <h1 className="text-6xl md:text-6xl font-semibold text-fourth pb-8"
       data-aos="fade-zoom-in"
       data-aos-duration={1000}

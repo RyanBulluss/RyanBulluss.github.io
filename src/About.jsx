@@ -3,16 +3,7 @@ import profile from "./images/Profile.JPG";
 export default function About() {
   return (
     <div className="min-h-[100vh] flex flex-col justify-center items-center gap-8 snap py-20">
-      <div
-        className="h-[200px] w-[200px] overflow-hidden flex items-center rounded-3xl border-2 "
-        data-aos="fade-down"
-      >
-        <img
-          src={profile}
-          alt="profile"
-          className="overflow-hidden rounded-3xl"
-        />
-      </div>
+
       <div className="grid md:grid-cols-2 gap-8 px-4 max-w-[1000px]">
         <div className="text-3xl md:text-4xl md:text-right">
           <h1
@@ -22,7 +13,7 @@ export default function About() {
             About
           </h1>
           <h4 className="text-xl sm:text-4xl" data-aos="fade-up-right">
-            Hi, my name is <span className="text-fifth">Ryan Bulluss</span> I am
+            Hi, my name is <span className="text-fifth">Ryan Bulluss</span>. I am
             a full stack software engineer currently specialising in the{" "}
             <span className="text-fifth">MERN</span> stack
           </h4>
