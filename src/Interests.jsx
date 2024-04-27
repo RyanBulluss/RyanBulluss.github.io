@@ -41,7 +41,12 @@ export default function Interests() {
         {interests.map((interest, idx) => (
             <div key={idx} className="bg-second py-2 px-6 min-w-[400px] justify-top gap-4 flex flex-col items-center text-center text-2xl rounded-2xl">
                 <h3 className="font-semibold">{interest.name}</h3>
-                <p className="text-lg text-gray-200">{interest.description}</p>
+                {interest.name === "Coding for fun" ? 
+                <p className="text-lg text-gray-200">Beyond work, I find joy in coding for pure enjoyment. Exploring new technologies, crafting small projects such as <a className="underline text-blue-300 hover:text-blue-400" target="_blank" rel="noreferrer" href="https://ryanbulluss.github.io/Minigames/">Minigames</a>, and solving intriguing coding challenges are some of my favorite pastimes.</p>
+              :
+              <p className="text-lg text-gray-200">{interest.description}</p>
+              
+              }
             </div>
         ))}
         
