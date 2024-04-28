@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Socials from "./Socials";
 import Interests from "./Interests";
+import OtherSkills from "./OtherSkills";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
@@ -26,6 +27,9 @@ export default function App() {
       </div>
       <div id="skills">
         <Skills />
+      </div>
+      <div id="other-skills">
+        <OtherSkills />
       </div>
       <div id="interests">
         <Interests />

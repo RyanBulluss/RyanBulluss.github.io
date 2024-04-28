@@ -7,9 +7,6 @@ import Freelance from "./Freelance";
 export default function Projects() {
   return (
     <div className="min-h-[100vh] max-w-[1200px] mx-auto flex flex-col justify-center items-center p-2 gap-8">
-      <div id="freelance">
-        <Freelance />
-      </div>
       <div id="university">
         <University />
       </div>
@@ -18,6 +15,9 @@ export default function Projects() {
       </div>
       <div id="ecommerce">
         <Ecommerce />
+      </div>
+      <div id="freelance">
+        <Freelance />
       </div>
       <div id="battleship">
         <Battleship />
